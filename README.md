@@ -30,7 +30,7 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 - GitHub: https://github.com/caomymy-238202/238202_CaoMyMy
 - Docker Hub Backend: https://hub.docker.com/repository/docker/caomymy238202/backend
 - Docker Hub Frontend: https://hub.docker.com/repository/docker/caomymy238202/frontend
-- Ứng dụng Frontend trên Render: 
+- Ứng dụng Frontend trên Render: https://web-238202.onrender.com/
 - Backend API trên Render: 
 - MongoDB Atlas: https://cloud.mongodb.com/v2/6ae0394b02d5f8a02d6eb111#/clusters/detail/238202-CaoMyMy
 
