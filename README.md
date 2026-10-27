@@ -1,9 +1,9 @@
 HỆ THỐNG QUẢN LÝ NHÂN SỰ
 
 1. Thông tin sinh viên
-- Họ và tên: 
-- Mã số sinh viên (MSSV): 
-- Lớp: 
+- Họ và tên: Cao Mỹ Mỹ
+- MSSV: 238202
+- Lớp: DH23TIN10
 
 2. Mô tả dự án
 Xây dựng hệ thống quản lý nhân sự trên nền tảng đám mây, cho phép người dùng xem danh sách nhân viên, thêm mới, tìm kiếm, xem chi tiết, cập nhật và xóa hồ sơ nhân viên.
@@ -27,7 +27,7 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 - Hiển thị thông báo khi thao tác thành công hoặc thất bại.
 
 5. Các đường dẫn
-- GitHub: 
+- GitHub: https://github.com/caomymy-238202/238202_CaoMyMy
 - Docker Hub Backend: 
 - Docker Hub Frontend: 
 - Ứng dụng Frontend trên Render: 
@@ -39,8 +39,7 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 1. Mở terminal tại thư mục backend.
 2. Cài đặt các thư viện: npm install
 3. Tạo file .env dựa trên .env.example và điền thông tin kết nối MongoDB Atlas.
-4. Khởi chạy Backend:
-   npm start
+4. Khởi chạy Backend: npm start
 
 - Frontend
 1. Mở terminal tại thư mục frontend.
@@ -52,3 +51,8 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 - frontend/: Mã nguồn giao diện người dùng.
 - README.md: Tài liệu giới thiệu và hướng dẫn sử dụng dự án.
 - .gitignore: Danh sách các tệp và thư mục Git cần bỏ qua.
+
+8. Cơ sở dữ liệu
+- Tên database: 238202_CaoMyMy
+- Tên collection: employees
+Collection employees lưu trữ thông tin nhân viên, bao gồm mã nhân viên, họ tên, giới tính, ngày sinh, phòng ban, chức vụ, email, số điện thoại, ngày vào làm và trạng thái làm việc.
