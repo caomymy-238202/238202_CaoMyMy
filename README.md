@@ -32,7 +32,7 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 - Docker Hub Frontend: 
 - Ứng dụng Frontend trên Render: 
 - Backend API trên Render: 
-- MongoDB Atlas: 
+- MongoDB Atlas: https://cloud.mongodb.com/v2/6ae0394b02d5f8a02d6eb111#/clusters/detail/238202-CaoMyMy
 
 6. Hướng dẫn chạy ứng dụng trên máy cá nhân
 - Backend
