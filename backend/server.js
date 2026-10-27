@@ -4,6 +4,7 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const employeeRoutes = require("./routes/employeeRoutes");
 
 const app = express();
 
@@ -13,6 +14,8 @@ app.use(express.json());
 app.get("/health", (req, res) => {
   res.json({ status: "OK" });
 });
+
+app.use("/api/employees", employeeRoutes);
 
 const PORT = process.env.PORT || 5000;
 
