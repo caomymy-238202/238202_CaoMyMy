@@ -28,7 +28,7 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 
 5. Các đường dẫn
 - GitHub: https://github.com/caomymy-238202/238202_CaoMyMy
-- Docker Hub Backend: 
+- Docker Hub Backend: https://hub.docker.com/repository/docker/caomymy238202/backend
 - Docker Hub Frontend: 
 - Ứng dụng Frontend trên Render: 
 - Backend API trên Render: 
