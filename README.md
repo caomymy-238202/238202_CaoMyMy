@@ -28,23 +28,29 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 
 5. Các đường dẫn
 - GitHub: https://github.com/caomymy-238202/238202_CaoMyMy
-- Docker Hub Backend: https://hub.docker.com/repository/docker/caomymy238202/backend
-- Docker Hub Frontend: https://hub.docker.com/repository/docker/caomymy238202/frontend
-- Ứng dụng Frontend trên Render: https://web-238202.onrender.com/
-- Backend API trên Render: 
+- Docker Hub Backend: https://hub.docker.com/r/caomymy238202/backend
+- Docker Hub Frontend: https://hub.docker.com/r/caomymy238202/frontend
+- Frontend trên Render: https://web-238202.onrender.com/
+- Backend API trên Render: https://api-238202.onrender.com/
+- Health check: https://api-238202.onrender.com/health
+- Danh sách nhân viên: https://api-238202.onrender.com/api/employees
 - MongoDB Atlas: https://cloud.mongodb.com/v2/6ae0394b02d5f8a02d6eb111#/clusters/detail/238202-CaoMyMy
 
 6. Hướng dẫn chạy ứng dụng trên máy cá nhân
-- Backend
+
+Backend
 1. Mở terminal tại thư mục backend.
 2. Cài đặt các thư viện: npm install
-3. Tạo file .env dựa trên .env.example và điền thông tin kết nối MongoDB Atlas.
+3. Tạo file .env dựa trên .env.example, sau đó cấu hình MONGODB_URI và PORT.
 4. Khởi chạy Backend: npm start
 
-- Frontend
-1. Mở terminal tại thư mục frontend.
+Frontend
+1. Mở terminal khác tại thư mục frontend.
 2. Cài đặt các thư viện: npm install
-3. Khởi chạy Frontend: npm run dev
+3. Nếu cần, tạo file .env và cấu hình biến VITE_API_URL trỏ đến Backend API. Khi chạy trên máy cá nhân, giá trị mặc định là http://localhost:5000/api/employees.
+4. Khởi chạy Frontend: npm run dev
+
+Lưu ý: Không đưa file .env hoặc thông tin đăng nhập MongoDB vào GitHub.
 
 7. Cấu trúc thư mục
 - backend/: Mã nguồn xử lý API và kết nối cơ sở dữ liệu.
@@ -55,4 +61,5 @@ Dữ liệu nhân viên được lưu trữ trên MongoDB Atlas. Giao diện ng�
 8. Cơ sở dữ liệu
 - Tên database: 238202_CaoMyMy
 - Tên collection: employees
+
 Collection employees lưu trữ thông tin nhân viên, bao gồm mã nhân viên, họ tên, giới tính, ngày sinh, phòng ban, chức vụ, email, số điện thoại, ngày vào làm và trạng thái làm việc.
